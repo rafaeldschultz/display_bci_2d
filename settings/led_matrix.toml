@@ -1,0 +1,9 @@
+[specs]
+gpio_pin = 18           # GPIO pin connect to the matrix signal line (must support PWM)
+led_count = 512         # Number of LEDs in the matrix
+led_freq_hz = 800000    # LED signal frequency in hertz (usually 800khz)
+led_dma = 10            # DMA channel to use for generating signal (defaults to 10)
+led_invert = false      # True to invert the signal (when using NPN transistor level shift)
+led_brightness = 1      # Set to 0 for darkest and 1 for brightest
+width_count = 32        # Number of LEDs in the width of the matrix
+height_count = 16       # Number of LEDs in the height of the matrix
