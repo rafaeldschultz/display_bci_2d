@@ -63,27 +63,6 @@ width_count = 32        # Number of LEDs in the width of the matrix
 height_count = 16       # Number of LEDs in the height of the matrix
 ```
 
-
-##
-
-### You can, as well, execute this script with diferrent datasets and use the results in your analysis.
-
-
-To do so, just **edit the value of the variables** in the ```src/user_inputs.py``` file acording to the desired values. A description of what each variable means can be found in the begining of the file. 
-
-```
-├── ...
-├── res/
-├── src/
-│   ├── app_multiprocessing.py
-│   ├── app.py
-│   ├── ...
-│   └── user_inputs.py  <–––
-├── README.md
-└── requirements.txt
-```
-
-
 ## 💡 The Applied Electromagnetics Group
 
 **This project is part of [The Applied Electromagnetics Group](http://www.sel.eesc.usp.br/leonardo/)**. 
